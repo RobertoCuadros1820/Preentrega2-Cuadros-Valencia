@@ -1,0 +1,167 @@
+/** GLOBALES **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+  
+background-color: #e8c39e;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+main{
+    margin: 40px 0;
+}
+
+
+/** header **/
+header {
+    background-color: #d34240;
+
+}
+
+
+header img{
+    width: 180px;
+}
+ 
+
+.nav-link:hover:hover{
+    color: white;
+}
+
+/** mas sobre nosotros **/
+
+
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros img{
+    width: 70px;
+}
+.descrip{
+    margin: 0 auto;
+}
+
+
+/**Carousel **/
+@media (min-width: 900px) {
+#carouselExample{
+    margin: 0 auto;
+    width: 70%;
+}
+.carousel-item img{
+    height: 450px;}
+}
+
+/**main **/
+
+.card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+@media(min-width: 768px){
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+}
+.card{
+   background-color: #f3d9a1;
+}
+
+/**footer**/
+
+
+.footer{
+    margin-top: 40px;
+    background-color: #d34240;
+    display: flex;
+    align-items: center;
+
+}
+
+.iconify{
+    font-size: 2rem;
+    color: black;
+}
+
+
+/** page nosotros **/
+.section-noso{
+   padding: 50px 0;
+}
+
+
+.nosotros-page img{
+    width: 400px;
+}
+.nosotros-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f3d9a1;
+
+}
+/** page ubicacion **/
+
+
+.parrafo-ubi{
+    text-align: center;
+}
+.padre-restaurante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.restaurantes{  
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    background-color: #e6dace;
+  
+}
+.restaurantes img{
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ubi{
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+/** page menú **/
+
+.menu-completo{
+    padding-top: 50px;
+}
+/**formulario page contacto **/
+
+label{
+    display: block;
+    
+}
